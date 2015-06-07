@@ -1,0 +1,48 @@
+a,h4,h5{
+    text-decoration: none;
+    font-family:merriweather,georgia,times new roman,times,serif;
+}
+
+div.logo, div.promo{
+    text-align: center;
+    margin-top: 40px;
+}
+div.logo img{
+    max-width: 400px;
+}
+div.promo p{
+    font-size: 20px;
+    font-family:merriweather,georgia,times new roman,times,serif;
+}
+div.signup{
+    margin-top: 15px;
+    text-align: center;
+}
+span.promise{
+    display: block;
+    color: gray;
+}
+input[type="email"] {
+    max-width: 400px;
+    width: 100%;
+}
+.inline{
+    display: inline;
+}
+
+/* Issue */
+div.issue{
+    text-align: center;
+    margin-top: 30px;
+}
+div.issue h5{
+    font-weight: bold;
+}
+div.issue h5:after{
+    display: block;
+    content: " ";
+    width: 40px;
+    margin:0 auto;
+    margin-top: 10px;
+    border-bottom: 3px solid rgba(140, 127, 129, 1);
+}
